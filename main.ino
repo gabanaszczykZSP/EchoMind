@@ -2,8 +2,8 @@
 #include <ESP8266WebServer.h>
 #include <EEPROM.h>
 
-const char* ssid = "3KORONY";
-const char* password = "Kie1ba5A";
+const char* ssid = "SSID";
+const char* password = "PASS";
 
 ESP8266WebServer server(80);
 const int EEPROM_SIZE = 512;
